@@ -1,0 +1,73 @@
+{
+	"name": "hexodus.page.gravity.title",
+	"icon": "minecraft:anvil",
+	"category": "hexcasting:patterns/spells",
+	"sortnum": 10,
+	"advancement": "hexcasting:root",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "hexodus.page.gravity.0"
+		},
+		{
+			"type": "hexcasting:pattern",
+			"op_id": "hexodus:change_gravity",
+			"anchor": "hexodus:change_gravity",
+			"input": "entity, vector, number",
+			"output": "",
+			"text": "hexodus.page.change_gravity.summary"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "hexodus.page.gravity.1"
+		},
+		{
+			"type": "hexcasting:pattern",
+			"op_id": "hexodus:get_duration",
+			"anchor": "hexodus:get_duration",
+			"input": "entity",
+			"output": "number",
+			"text": "hexodus.page.get_duration.summary"
+		},
+		{
+			"type": "hexcasting:pattern",
+			"op_id": "hexodus:get_direction",
+			"anchor": "hexodus:get_direction",
+			"input": "entity",
+			"output": "vector",
+			"text": "hexodus.page.get_direction.summary"
+		},
+		{
+			"type": "hexcasting:pattern",
+			"op_id": "hexodus:get_strength",
+			"anchor": "hexodus:get_strength",
+			"input": "entity",
+			"output": "number",
+			"text": "hexodus.page.get_strength.summary"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "hexodus.page.gravity.2"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "hexodus.page.gravity.3"
+		},
+		{
+			"type": "hexcasting:pattern",
+			"op_id": "hexodus:get_true_direction",
+			"anchor": "hexodus:get_true_direction",
+			"input": "entity",
+			"output": "vector",
+			"text": "hexodus.page.get_true_direction.summary"
+		},
+		{
+			"type": "hexcasting:pattern",
+			"op_id": "hexodus:get_true_strength",
+			"anchor": "hexodus:get_true_strength",
+			"input": "entity",
+			"output": "number",
+			"text": "hexodus.page.get_true_strength.summary"
+		}
+	]
+}

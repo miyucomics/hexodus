@@ -1,0 +1,3 @@
+# Hexodus
+
+A play on word of exodus, meaning a mass departure or more generally, a mass movement of people from one place to another. This addon brings back gravity changing for Hexcasting, although with a few balance tweaks. Gravity alterations now only last for a few seconds but using other addons or just spam-clicking an artifact, it can be infinitely refreshed. This mod also adds various gravity-producing entities you can conjure.
