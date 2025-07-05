@@ -27,7 +27,7 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:$fabric_api_version"
 	modImplementation "net.fabricmc:fabric-language-kotlin:$fabric_kotlin_version"
 
-	modImplementation("com.github.qouteall:GravityChanger:$gravity_changer_version") {
+	modImplementation("com.github.qouteall:GravityChanger:v$gravity_changer_version-mc$minecraft_version") {
 		exclude module: "modmenu"
 	}
 	modImplementation("at.petra-k.hexcasting:hexcasting-fabric-$minecraft_version:$hexcasting_version") {
