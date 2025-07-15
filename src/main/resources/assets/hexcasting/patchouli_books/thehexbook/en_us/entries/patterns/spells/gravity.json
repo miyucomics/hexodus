@@ -19,7 +19,7 @@
 		},
 		{
 			"type": "patchouli:text",
-			"text": "hexodus.page.gravity.1"
+			"text": "hexodus.page.change_gravity.description"
 		},
 		{
 			"type": "hexcasting:pattern",

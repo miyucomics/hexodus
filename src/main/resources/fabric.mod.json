@@ -21,10 +21,19 @@
 				"value": "miyucomics.hexodus.HexodusMain"
 			}
 		],
+		"client": [
+			{
+				"adapter": "kotlin",
+				"value": "miyucomics.hexodus.HexodusClient"
+			}
+		],
 		"cardinal-components": [
 			"miyucomics.hexodus.HexodusComponents"
 		]
 	},
+	"mixins": [
+		"hexodus.mixins.json"
+	],
 	"depends": {
 		"minecraft": "1.20.1",
 		"fabricloader": ">=0.16.7",

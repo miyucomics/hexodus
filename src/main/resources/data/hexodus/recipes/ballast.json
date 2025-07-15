@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"key": {
+		"A": {
+			"item": "minecraft:anvil"
+		},
+		"C": {
+			"item": "hexcasting:charged_amethyst"
+		},
+		"S": {
+			"item": "hexcasting:slate"
+		}
+	},
+	"pattern": [
+		" S ",
+		"SAS",
+		"CSC"
+	],
+	"result": {
+		"item": "hexodus:ballast"
+	}
+}

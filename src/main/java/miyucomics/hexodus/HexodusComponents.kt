@@ -11,7 +11,6 @@ import gravity_changer.GravityComponent
 import net.minecraft.entity.Entity
 import net.minecraft.nbt.NbtCompound
 import net.minecraft.util.math.Direction
-import kotlin.jvm.java
 
 class HexodusComponents : EntityComponentInitializer {
 	override fun registerEntityComponentFactories(registry: EntityComponentFactoryRegistry) {

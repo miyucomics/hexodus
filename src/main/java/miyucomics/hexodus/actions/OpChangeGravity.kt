@@ -1,17 +1,15 @@
 package miyucomics.hexodus.actions
 
-import at.petrak.hexcasting.api.casting.ParticleSpray
-import at.petrak.hexcasting.api.casting.RenderedSpell
+import at.petrak.hexcasting.api.casting.*
 import at.petrak.hexcasting.api.casting.castables.SpellAction
 import at.petrak.hexcasting.api.casting.eval.CastingEnvironment
-import at.petrak.hexcasting.api.casting.getBlockPos
-import at.petrak.hexcasting.api.casting.getEntity
-import at.petrak.hexcasting.api.casting.getPositiveDoubleUnderInclusive
 import at.petrak.hexcasting.api.casting.iota.Iota
 import at.petrak.hexcasting.api.casting.mishaps.MishapInvalidIota
+import at.petrak.hexcasting.api.misc.MediaConstants
 import miyucomics.hexodus.HexodusComponents
-import miyucomics.hexodus.HexodusMain.Companion.determineCost
 import net.minecraft.entity.Entity
+import net.minecraft.entity.LivingEntity
+import net.minecraft.entity.player.PlayerEntity
 import net.minecraft.util.math.Direction
 
 object OpChangeGravity : SpellAction {
@@ -29,5 +27,13 @@ object OpChangeGravity : SpellAction {
 		override fun cast(env: CastingEnvironment) {
 			HexodusComponents.HEXODUS.get(target).setAlteredGravity(target, direction, strength, 50)
 		}
+	}
+
+	fun determineCost(target: Entity, caster: LivingEntity?): Long {
+		if (target == caster)
+			return MediaConstants.DUST_UNIT / 4
+		if (target is PlayerEntity)
+			return MediaConstants.SHARD_UNIT
+		return MediaConstants.DUST_UNIT
 	}
 }

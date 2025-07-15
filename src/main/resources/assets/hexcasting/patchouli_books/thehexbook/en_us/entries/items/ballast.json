@@ -1,0 +1,30 @@
+{
+	"name": "hexodus.page.ballast.title",
+	"icon": "hexodus:ballast{active:1b}",
+	"category": "hexcasting:items",
+	"sortnum": 10,
+	"advancement": "hexcasting:root",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "hexodus.page.ballast.0"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "hexodus.page.ballast.1"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "hexodus:ballast",
+			"text": "hexodus.page.ballast.2"
+		},
+		{
+			"type": "hexcasting:pattern",
+			"op_id": "hexodus:alter_ballast",
+			"anchor": "hexodus:alter_ballast",
+			"input": "vector, number",
+			"output": "",
+			"text": "hexodus.page.alter_ballast.summary"
+		}
+	]
+}

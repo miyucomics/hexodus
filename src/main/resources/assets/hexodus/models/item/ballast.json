@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "hexodus:item/ballast_inactive"
+	},
+	"overrides": [
+		{
+			"predicate": {"active": 1},
+			"model": "hexodus:item/ballast_active"
+		}
+	]
+}

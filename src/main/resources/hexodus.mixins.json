@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "miyucomics.hexodus.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"minVersion": "0.8",
+	"mixins": [
+		"GravityComponentAccessor",
+		"ItemEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
