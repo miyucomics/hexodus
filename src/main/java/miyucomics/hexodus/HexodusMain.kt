@@ -2,7 +2,6 @@ package miyucomics.hexodus
 
 import at.petrak.hexcasting.api.misc.MediaConstants
 import gravity_changer.GravityComponent
-import miyucomics.hexodus.inits.HexodusPatterns
 import net.fabricmc.api.ModInitializer
 import net.minecraft.entity.Entity
 import net.minecraft.entity.LivingEntity
@@ -11,7 +10,7 @@ import net.minecraft.util.Identifier
 
 class HexodusMain : ModInitializer {
 	override fun onInitialize() {
-		HexodusPatterns.init()
+		HexodusActions.init()
 		GravityComponent.GRAVITY_UPDATE_EVENT.register { entity, component -> HexodusComponents.HEXODUS.get(entity).alterGravity(component) }
 	}
 

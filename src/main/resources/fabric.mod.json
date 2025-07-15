@@ -3,7 +3,7 @@
 	"id": "hexodus",
 	"version": "${version}",
 	"name": "Hexodus",
-	"description": "An addon for all your daemon and delaying needs!",
+	"description": "A gravity addon for Hexcasting!",
 	"authors": [
 		"miyucomics"
 	],

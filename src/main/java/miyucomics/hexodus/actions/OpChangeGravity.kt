@@ -1,4 +1,4 @@
-package miyucomics.hexodus.patterns
+package miyucomics.hexodus.actions
 
 import at.petrak.hexcasting.api.casting.ParticleSpray
 import at.petrak.hexcasting.api.casting.RenderedSpell
@@ -14,7 +14,7 @@ import miyucomics.hexodus.HexodusMain.Companion.determineCost
 import net.minecraft.entity.Entity
 import net.minecraft.util.math.Direction
 
-class OpChangeGravity : SpellAction {
+object OpChangeGravity : SpellAction {
 	override val argc = 3
 	override fun execute(args: List<Iota>, env: CastingEnvironment): SpellAction.Result {
 		val target = args.getEntity(0, argc)
