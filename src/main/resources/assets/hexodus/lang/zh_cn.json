@@ -9,7 +9,7 @@
 	"hexodus.page.ballast.1": "$(item)压载$()的质量极大，大到只要激活，它提供的$(thing)重力$()就能覆盖掉几乎所有其他事物产生的$(thing)重力$()和对$(thing)重力$()的影响效果，例如$(l:patterns/spells/gravity#hexodus:change_gravity)$(action)施重力$()法术。$(br2)好在，我可以随意开关它，以免我的$(hex)咒术$()失控；它也会在失去与我身体的接触时自动关闭。$(item)压载$()不会向上飘走一去不返，我也不会被其他人的$(item)压载$()阴到而往上飞离地面。",
 	"hexodus.page.ballast.2": "$(item)压载$()似乎自身就能产生力。$(l:patterns/spells/gravity#hexodus:change_gravity)$(action)施重力$()只是修改已经存在的力的大小和方向，而就算其他力全部失常，$(item)压载$()也能恢复秩序。",
 	"hexcasting.action.hexodus:alter_ballast": "修改压载",
-	"hexodus.page.alter_ballast.summary": "命令我所持的$(item)压载$()向给定方向以给定力度摔落。无需消耗$(media)媒质$()。",
+	"hexodus.page.alter_ballast.summary": "命令我所持的$(item)压载$()向给定方向以给定力度坠落。无需消耗$(media)媒质$()。",
 
 	"hexodus.page.gravity.title": "重力",
 	"hexodus.page.gravity.0": "我可以使用$(l:items/ballast)$(item)压载$()来改变$(thing)重力$()对我的影响；同时我还发现了一个法术，可以用来调整$(thing)重力$()对$(o)任意$()实体的影响，虽然持续时间不长。$(br2)$(o)据说，飞行是有技巧的，或者更应该说，是有窍门的。这窍门就在于向地面扑去而错过地面。$()",
@@ -25,7 +25,7 @@
 	"hexodus.page.gravity.2": "我发现了一些有关$(thing)重力$()的理论文献。似乎每个产生$(thing)重力$()的现象都有以数表示的$(o)优先级$()。$(thing)重力$()对某实体的施力方向只由优先级最高的效果决定。$(br2)$(l:patterns/spells/gravity#hexodus:change_gravity)$(action)施重力$()产生的$(thing)重力$()显著较弱，其他来源的$(thing)重力$()通常能盖过它。面对敌对的$(hex)咒法师$()时，我可以利用这一点来锚定自身。",
 	"hexodus.page.gravity.3": "重力强度则更像是平等讨论决定的。$(thing)重力$()的各个来源都会声明其施力倍数。对$(l:patterns/spells/gravity#hexodus:change_gravity)$(action)施重力$()来说，是 0 到 5 之间的数，包括 0 和 5。$(br2)产生效果时，$(thing)重力$()会将所有倍数乘算，以此决定最终的施力强度。$(br2)后页会介绍用于测量“真正”的重力的若干图案。",
 	"hexcasting.action.hexodus:get_true_direction": "坠落之纯化，第二型",
-	"hexodus.page.get_true_direction.summary": "返回$(thing)重力$()对实体的实力方向。",
+	"hexodus.page.get_true_direction.summary": "返回$(thing)重力$()对实体的施力方向。",
 	"hexcasting.action.hexodus:get_true_strength": "冲击之纯化，第二型",
 	"hexodus.page.get_true_strength.summary": "返回实体所受$(thing)重力$()的强度相对基线的倍数。"
 }
